@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:11:28:30 -0800] "GET /hello/sayhello HTTP/1.1" 200 276
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:11:29:07 -0800] "GET /hello/sayhello HTTP/1.1" 200 277
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:35:27 -0800] "GET /hello/querybook.html HTTP/1.1" 200 455
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:35:37 -0800] "GET /hello/query?author=Tan+Ah+Teck HTTP/1.1" 404 1089
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:36:13 -0800] "GET /hello/query?author=Tan+Ah+Teck&author=Mohammad+Ali HTTP/1.1" 404 1089
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:43:28 -0800] "GET /hello/query HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:43:47 -0800] "GET /hello/querybook.html HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:44:14 -0800] "GET /hello/querybook.html HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:44:42 -0800] "GET /hello/QueryBook.html HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:45:46 -0800] "GET /hello/querybook.html HTTP/1.1" 200 455
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:46:02 -0800] "GET /hello/query?author=Tan+Ah+Teck HTTP/1.1" 500 3648
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:48:42 -0800] "GET /hello/querybook.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:48:46 -0800] "GET /hello/query?author=Tan+Ah+Teck HTTP/1.1" 500 3648
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:53:38 -0800] "GET /hello/querybook.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Feb/2019:15:53:41 -0800] "GET /hello/query?author=Tan+Ah+Teck HTTP/1.1" 500 3648

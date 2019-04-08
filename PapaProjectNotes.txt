@@ -1,0 +1,32 @@
+This project is da bomb
+
+* Terminal folders
+ - Compile Project
+ /Users/yaminipattan/Documents/College/PersonalProjects/myWebProject/tomcat/webapps/ebookshop/WEB-INF/classes
+  javac -cp /Users/yaminipattan/Documents/College/PersonalProjects/myWebProject/tomcat/lib/servlet-api.jar filename.java
+ 
+ - Run Tomcat
+ /Users/yaminipattan/Documents/College/PersonalProjects/myWebProject/tomcat/bin
+ ./catalina.sh run
+ 
+* $HOME expands users home directory, in my case "/User/yaminipattan"
+
+* to start Tomcat server
+	/$HOME/Documents/College/PersonalProjects/myWebProject/tomcat/bin
+	./catalina.sh run
+	
+* webapps -> ebookshop (root directory) [HTML files, resources visible to web users] -> WEB-INF (sub-directory) [app's configuration files, web.xml]-> classes (sub-directory) [Java source files and classes]
+
+* Java DB programming
+	1. Allocagte a "Connection" object
+	2. Allocate a "Statement" object, under the "Connection" object created
+	3. Query database:
+		a. Execute a SQL "SELECT" query by calling the "executeQuery()" method of the "Statement" object, which returns the query results  in a "ResultSer" object; or
+		b. Execute a SQL "INSERT|UPDATE|DELETE" command by calling the "executeUpdate()" method of the "Statement" object, which returns an int indicating the number of rows affected
+	4. Process the query result
+	5. Free the resources by closing the "Statement" and "Connection"
+	
+* in html, <form method = "get" action = "http..."> -> gives you the absolute url = exact location but not helpful if you change anything about the required file
+	- instead use a realtive url, gives it a general location so that it can still be found if moved
+		in this case: action="query"
+		

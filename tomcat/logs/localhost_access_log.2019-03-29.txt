@@ -1,0 +1,4 @@
+127.0.0.1 - - [29/Mar/2019:17:46:50 -0700] "GET /ebookshop/querybookmvp.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Mar/2019:17:46:59 -0700] "GET /ebookshop/querymvp?author=Tan+Ah+Teck&author=Mohammad+Ali&price=50 HTTP/1.1" 200 237
+127.0.0.1 - - [29/Mar/2019:17:47:21 -0700] "GET /ebookshop/querybookmp.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Mar/2019:17:47:24 -0700] "GET /ebookshop/querymp?author=Tan+Ah+Teck&price=50 HTTP/1.1" 200 360
